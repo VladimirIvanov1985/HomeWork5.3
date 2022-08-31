@@ -54,14 +54,13 @@ public class Main {
         System.out.println();
         // Task 4
         for (int i = 0; i < array1.length; i++) {
-            if (array1[i] % 2 == 1) {
+            if (array1[i] % 2 == 1){
                 array1[i]++;
-                System.out.print(array1[i]);
-                if (i != array1.length-1) {
-                    System.out.print(", ");
-                }
+            }
+            System.out.print(array1[i]);
+            if (i != array1.length - 1) {
+                System.out.print(", ");
             }
         }
-        System.out.println();
     }
 }
